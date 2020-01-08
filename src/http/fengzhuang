@@ -1,0 +1,8 @@
+封装要点
+统一 url配置
+统一 api请求
+request  请求拦截器   例如 带上 token 设置请求头
+response 相应拦截器    例如 统一错误管理 页面重定向
+
+根据需要 结合vuex做全局loading动画,或者错误处理
+将axios分装成Vue插件使用
